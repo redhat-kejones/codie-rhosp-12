@@ -1,0 +1,2 @@
+resource_registry:
+  OS::TripleO::Tasks::ControllerPostConfig: /home/stack/templates/firstboot/controller-post-config.yaml

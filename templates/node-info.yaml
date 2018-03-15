@@ -1,0 +1,15 @@
+parameter_defaults:
+  OvercloudControllerFlavor: control
+  OvercloudComputeFlavor: compute
+  OvercloudCephStorageFlavor: ceph-storage
+  ControllerCount: 1
+  ComputeCount: 1
+  CephStorageCount: 0
+
+  CloudName: openstack.two.hattrick.lab
+  CloudDomain: two.hattrick.lab
+  DnsServers: ["192.168.0.4"]
+  TimeZone: "US/Eastern"
+
+  CeilometerStoreEvents: true
+  CinderLVMLoopDeviceSize: 358400
